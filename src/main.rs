@@ -4,7 +4,10 @@ use winit::{
     window::WindowBuilder,
 };
 
+mod camera;
+mod camera_controller;
 mod state;
+mod texture;
 
 fn main() {
     pollster::block_on(run());
